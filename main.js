@@ -40,7 +40,7 @@ for(let i in addButtons){
 //********************MINUS_BUTTON*********************************/
 for(let i in minusButtons){
     minusButtons[i].addEventListener("click",function(){
-        if(arrOfQuantitys[i] > 1){
+        if(arrOfQuantitys[i] > 0){
             arrOfQuantitys[i]--;
             quantitys[i].innerHTML = arrOfQuantitys[i];
             updateTotal();
